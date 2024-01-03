@@ -1,55 +1,55 @@
 .product-card {
-    width: 350px;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 350px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-card img {
-    max-width: 100%;
-    height: 250px;
-    margin: 10px 0px;
+  max-width: 100%;
+  height: 250px;
+  margin: 10px 0px;
 }
 
 .product-card .name {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .product-card p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .product-card .action {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
 }
 
 .product-card button {
-    border: 0px;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #1c59ae;
-    padding: 7px 10px;
-    cursor: pointer;
-    max-width: 150px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1c59ae;
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
 }
 
 .product-card button:hover {
-    background-color: #103f80;
+  background-color: #103f80;
 }
 
 .product-card .remove {
-    background-color: #ac0d14;
+  background-color: #ac0d14;
 }
 
 .product-card .remove:hover {
-    background-color: #8e090f;
+  background-color: #8e090f;
 }
